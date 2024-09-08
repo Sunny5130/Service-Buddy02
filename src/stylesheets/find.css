@@ -1,0 +1,63 @@
+.find-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listings{
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px;
+}
+.img-list{
+    width : 200px;
+    border-radius: 10px;
+}
+.card{
+    border: 2px solid gray;
+    padding: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.card:hover{
+    border: 3px solid black;
+}
+
+.rightside{
+    margin-left: 5%;
+}
+.sub{
+    color: gray;
+    font-size: 0.7vw;
+}
+.main{
+    font-size: 1.25vw;
+}
+.card-info{
+    margin-bottom: 5%;
+}
+.contact{
+    margin-top: 30%;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.find-head{
+    font-size: 2vw;
+    margin-top: 3%;
+    align-self: flex-start;
+    margin-left: 10%;
+}

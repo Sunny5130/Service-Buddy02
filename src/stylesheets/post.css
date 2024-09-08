@@ -1,0 +1,57 @@
+.post-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.post-head{
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.post-form{
+    border : 3px solid aliceblue;
+    margin : 3%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.lab{
+    color : gray;
+    font-weight: 300;
+    align-self: flex-start;
+}
+.inp{
+    width : 50vw;
+    font-size: 1.5vw;
+    padding: 2%;
+}
+.form-loc{
+    width: 100%;
+    display: flex;
+}
+.post-container-inside{
+    width: 100%;
+}
+.form-loc-menu{
+    width: 45%;
+    font-size: 1.5vw;
+    padding: 2%;
+}
+.form-loc{
+    display: flex;
+    justify-content: space-between;
+    gap : 10px;
+    margin-top: 20px;
+}
+.btn-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}

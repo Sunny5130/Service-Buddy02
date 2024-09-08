@@ -1,0 +1,40 @@
+.signin-container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../resources/bannerDoc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-form{
+    font-size: 2vw;
+}
+
+.form{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.inp-sign{
+    padding: 2%;
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+.btn-sign{
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+.lab-sign{
+    align-self: flex-start;
+}

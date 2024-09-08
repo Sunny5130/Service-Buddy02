@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    padding: 5%;
+}
+
+.footer-head{
+    font-size: 2vw;
+}
+
+ul{
+    list-style: none;
+    padding-left:0; 
+}
